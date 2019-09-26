@@ -1,0 +1,28 @@
+.boxContainer {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  height: 100%;
+  z-index: 10;
+}
+
+.buttonContainer {
+  height: 40px;
+  padding: 3px;
+  margin-bottom: 3px;
+}
+
+.button {
+  height: 99%;
+  width: 10%;
+}
+
+.boxContainer > div > input {
+  width: 87%;
+  height: 85%;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 4px;
+  outline: none;
+  padding-left: 4px;
+}

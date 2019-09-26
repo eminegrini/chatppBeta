@@ -1,0 +1,12 @@
+.appContainer {
+	display: flex;
+	justify-content: flex-start;
+	background-color: rgba(50, 135, 150, 0.6);
+	align-items: center;
+	border-bottom: 1px solid black;
+}
+
+.avatar {
+	margin-left: 10px;
+	margin-right: 5px;
+}

@@ -1,0 +1,27 @@
+.chatContainer {
+  background:rgb(129, 207, 231);
+  max-width: 70%;
+  border-radius: 16px;
+  margin-left: 2%;
+  margin-bottom: 2%;
+  padding: 10px; 
+}
+
+.chatContainer > h3 {
+  margin-top: 3px;
+  font-family: 'arial'
+}
+
+.chatContainer > span {
+  font-family: 'Comic Sans MS'
+}
+
+.avatarContainer {
+  display: flex;
+  align-items: center;
+}
+
+.avatar {
+  margin-left: 2%;
+  margin-bottom: 2%;
+}
