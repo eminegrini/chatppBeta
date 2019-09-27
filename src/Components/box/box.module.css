@@ -10,6 +10,7 @@
   height: 40px;
   padding: 3px;
   margin-bottom: 3px;
+  min-width: 100px;
 }
 
 .button {
@@ -25,4 +26,5 @@
   border-radius: 4px;
   outline: none;
   padding-left: 4px;
+  min-width: 100px;
 }

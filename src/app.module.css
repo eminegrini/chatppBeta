@@ -1,9 +1,7 @@
 .container {
-  border: 1px solid black;
   display:  flex;
   justify-content: space-between;
   width: 99vw;
   height: 90vh;
   flex-direction: column;
-  border-radius: 5px;
 }

@@ -1,13 +1,10 @@
 import React from 'react';
-import Header from './Components/header'
-import Box from './Components/box'
-import './app.css'
+import styles from './app.module.css'
 
-const App = () => {
+const App = (props) => {
   return(
-    <div className='container'>
-      <Header />
-      <Box />
+    <div className={styles.container}>
+      {props.children}
     </div>
   )
 }

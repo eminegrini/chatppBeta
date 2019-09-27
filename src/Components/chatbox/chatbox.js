@@ -1,19 +1,18 @@
 import React from 'react';
 import Avatar from '@material-ui/core/Avatar';
-import './chatbox.css'
+import styles from './chatbox.module.css'
 
 const chatBox = (props) => {
-  
   return(
-    <div className='avatarContainer'>
+    <div className={styles.avatarContainer}>
       <Avatar 
         alt="User Profile"
         src={"https://culto.latercera.com/wp-content/uploads/2018/10/michael-bad_phixr-900x600.jpg"}
-        className='avatar'
+        className={styles.avatar}
       />
-      <div className='chatContainer'>
+      <div className={styles.chatContainer}>
         <span>
-          {props.message ? props.message : 'hello'}
+          hello {props.user.displayName}
         </span>
       </div>
 

@@ -1,0 +1,46 @@
+.loginContainer {
+  display: flex;
+  border: 5px black solid;
+  border-radius: 8px;
+  height: 300px;
+  width: 400px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.inputCont {
+  width: 50%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.title {
+  font-family: 'Comic Sans MS';
+  font-weight: 500;
+  font-size: 22px;
+  width: 100%;
+  border: 1px black solid;
+  height: 8%;
+  text-align: center;
+  background-color: rgba(50, 135, 150, 0.6);
+  flex-grow: 1;
+}
+
+.rootContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.googleCont {
+  margin-top: 3%;
+  height: 83%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
